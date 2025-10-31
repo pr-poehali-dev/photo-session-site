@@ -200,8 +200,12 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                <Icon name="User" size={120} className="text-primary/30" />
+              <div className="relative aspect-[3/4] rounded-2xl overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/ceaf5f93-2061-4741-bb29-15f5aa46ea26.jpg" 
+                  alt="Фотограф с камерой" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             
