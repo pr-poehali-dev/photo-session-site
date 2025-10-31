@@ -45,7 +45,7 @@ const Index = () => {
   const pricingPlans = [
     {
       title: 'Базовый',
-      price: '5 000 ₽',
+      price: '1 500 ₽',
       duration: '1 час',
       features: [
         '30+ обработанных фото',
