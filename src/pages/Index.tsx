@@ -399,20 +399,6 @@ const Index = () => {
                 </div>
               </CardHeader>
             </Card>
-            
-            <Card className="animate-scale-in hover:shadow-lg hover:shadow-primary/10 transition-all duration-300">
-              <CardHeader>
-                <div className="flex items-center gap-4">
-                  <div className="p-3 bg-primary/10 rounded-full">
-                    <Icon name="MapPin" size={24} className="text-primary" />
-                  </div>
-                  <div>
-                    <CardTitle>Адрес студии</CardTitle>
-                    <CardDescription className="text-lg">г. Москва, ул. Примерная, 1</CardDescription>
-                  </div>
-                </div>
-              </CardHeader>
-            </Card>
           </div>
         </div>
       </section>
