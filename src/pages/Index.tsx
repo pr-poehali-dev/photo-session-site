@@ -56,7 +56,7 @@ const Index = () => {
     },
     {
       title: 'Стандарт',
-      price: '8 000 ₽',
+      price: '2 500 ₽',
       duration: '2 часа',
       features: [
         '60+ обработанных фото',
