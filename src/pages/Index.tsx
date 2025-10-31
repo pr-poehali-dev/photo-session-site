@@ -394,7 +394,7 @@ const Index = () => {
                   </div>
                   <div>
                     <CardTitle>Telegram</CardTitle>
-                    <CardDescription className="text-lg">@photographer</CardDescription>
+                    <CardDescription className="text-lg">@dishvkc</CardDescription>
                   </div>
                 </div>
               </CardHeader>
