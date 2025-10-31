@@ -390,10 +390,10 @@ const Index = () => {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <div className="p-3 bg-primary/10 rounded-full">
-                    <Icon name="Instagram" size={24} className="text-primary" />
+                    <Icon name="Send" size={24} className="text-primary" />
                   </div>
                   <div>
-                    <CardTitle>Instagram</CardTitle>
+                    <CardTitle>Telegram</CardTitle>
                     <CardDescription className="text-lg">@photographer</CardDescription>
                   </div>
                 </div>
