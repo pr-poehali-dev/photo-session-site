@@ -358,43 +358,42 @@ const Index = () => {
           
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="animate-scale-in hover:shadow-lg hover:shadow-primary/10 transition-all duration-300">
-              <CardHeader>
+              <CardHeader className="py-12">
                 <div className="flex items-center gap-4">
-                  <div className="p-3 bg-primary/10 rounded-full">
-                    <Icon name="Phone" size={24} className="text-primary" />
+                  <div className="p-4 bg-primary/10 rounded-full">
+                    <Icon name="Phone" size={32} className="text-primary" />
                   </div>
                   <div>
-                    <CardTitle>Телефон</CardTitle>
-                    <CardDescription className="text-lg">+7 (958) 188-57-51</CardDescription>
+                    <CardTitle className="text-xl">Телефон</CardTitle>
+                    <CardDescription className="text-2xl">+7 (958) 188-57-51</CardDescription>
                   </div>
                 </div>
               </CardHeader>
             </Card>
             
             <Card className="animate-scale-in hover:shadow-lg hover:shadow-primary/10 transition-all duration-300">
-              <CardHeader>
+              <CardHeader className="py-12">
                 <div className="flex items-center gap-4">
-                  <div className="p-3 bg-primary/10 rounded-full">
-                    <Icon name="Mail" size={24} className="text-primary" />
+                  <div className="p-4 bg-primary/10 rounded-full">
+                    <Icon name="Mail" size={32} className="text-primary" />
                   </div>
                   <div>
-                    <CardTitle>Email</CardTitle>
-                    <CardDescription className="text-lg">andrejpozidaev8895@mail.ru
-</CardDescription>
+                    <CardTitle className="text-xl">Email</CardTitle>
+                    <CardDescription className="text-2xl">andrejpozidaev8895@mail.ru</CardDescription>
                   </div>
                 </div>
               </CardHeader>
             </Card>
             
-            <Card className="animate-scale-in hover:shadow-lg hover:shadow-primary/10 transition-all duration-300">
-              <CardHeader>
-                <div className="flex items-center gap-4">
-                  <div className="p-3 bg-primary/10 rounded-full">
-                    <Icon name="Send" size={24} className="text-primary" />
+            <Card className="animate-scale-in hover:shadow-lg hover:shadow-primary/10 transition-all duration-300 md:col-span-2">
+              <CardHeader className="py-12">
+                <div className="flex items-center justify-center gap-6">
+                  <div className="p-5 bg-primary/10 rounded-full">
+                    <Icon name="Send" size={40} className="text-primary" />
                   </div>
-                  <div>
-                    <CardTitle>Telegram</CardTitle>
-                    <CardDescription className="text-lg">@dishvkc</CardDescription>
+                  <div className="text-center">
+                    <CardTitle className="text-2xl mb-2">Telegram</CardTitle>
+                    <CardDescription className="text-3xl">@dishvkc</CardDescription>
                   </div>
                 </div>
               </CardHeader>
