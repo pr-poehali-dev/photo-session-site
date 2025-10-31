@@ -365,7 +365,7 @@ const Index = () => {
                   </div>
                   <div>
                     <CardTitle>Телефон</CardTitle>
-                    <CardDescription className="text-lg">+7 (999) 123-45-67</CardDescription>
+                    <CardDescription className="text-lg">+7 (958) 188-57-51</CardDescription>
                   </div>
                 </div>
               </CardHeader>
