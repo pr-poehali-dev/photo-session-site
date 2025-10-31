@@ -218,21 +218,6 @@ const Index = () => {
                   Работаю в различных жанрах: портретная съемка, family-фотосессии, свадьбы, love story, коммерческая фотография.
                 </p>
               </div>
-              
-              <div className="grid grid-cols-3 gap-6 pt-6">
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-primary mb-2">500+</div>
-                  <div className="text-sm text-gray-400">Фотосессий</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-primary mb-2">8</div>
-                  <div className="text-sm text-gray-400">Лет опыта</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-primary mb-2">300+</div>
-                  <div className="text-sm text-gray-400">Клиентов</div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
